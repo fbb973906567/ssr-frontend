@@ -6,6 +6,8 @@ export default defineConfig({
   },
   routes: [
     { path: '/', component: '@/pages/index' },
+    { path: '/hook', component: '@/pages/hook' },
+    { path: '/', component: '@/pages/index' },
   ],
   define: {
     env: 'dev',
